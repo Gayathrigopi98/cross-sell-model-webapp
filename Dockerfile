@@ -8,5 +8,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 82
 
-ENTRYPOINT ["streamlit" , "run" , "webview.py" , "--server.port:82" , "--server.address:0.0.0.0"]
+ENTRYPOINT ["streamlit" , "run" , "webview.py" , "--server.port=82" , "--server.address=0.0.0.0"]
 
